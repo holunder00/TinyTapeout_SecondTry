@@ -13,8 +13,11 @@ Explain how your project works
 
 ## How to test
 
-Explain how to use your project
+Not now finished
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Not now finished
+
+## How to use
+Not now described
