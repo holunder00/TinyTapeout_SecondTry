@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     395055722430895105       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "FirstDemo Copy"      # Project title
-  author:       "Me"      # Your name
-  discord:      "kasdjflk"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "First Test"      # One line description of what your project does
+  title:        "Servo Signal Tester"      # Project title
+  author:       "Holunder"      # Your name
+  discord:      "No Discord"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "If you provide a 4kHz Clock and 8 LED's as Output, the LED's will light up according to the Servo Signal on Input 0"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     4000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -14,7 +14,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "Servo Signal"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -24,14 +24,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "LED 0"
+  uo[1]: "LED 1"
+  uo[2]: "LED 2"
+  uo[3]: "LED 3"
+  uo[4]: "LED 4"
+  uo[5]: "LED 5"
+  uo[6]: "LED 6"
+  uo[7]: "LED 7"
 
   # Bidirectional pins
   uio[0]: ""
